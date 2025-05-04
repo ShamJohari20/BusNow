@@ -1,0 +1,82 @@
+#main{
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient( #77A1D3, #79CBCA,#E684AE);
+}
+
+#parent{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+  border-style: dotted;
+  border-color: #E684AE;
+
+}
+#child1{
+  /* height: 100%; */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 50px;
+
+}
+
+#hedding{
+  /* color: #77A1D3; */
+  font-size: 50px;
+  font-weight: 700;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 0px 0px 7px #E684AE
+}
+
+#ticket{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+select{
+  /* border: none; */
+  outline: none;
+  height: 35px;
+  width: 280px;
+  text-align: center;
+  border-radius: 20px;
+
+}
+
+input{
+  /* border: none; */
+  outline: none;
+  height: 35px;
+  width: 280px;
+  text-align: center;
+  border-radius: 20px;
+
+}
+
+button{
+  /* border: none; */
+  outline: none;
+  height: 35px;
+  width: 130px;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: aqua;
+  text-shadow: 2px 2px 3px rgb(250, 4, 201);
+  font-size: 20px;
+  font-weight: 700;
+
+}
